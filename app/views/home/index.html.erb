@@ -1,6 +1,6 @@
 <h1>Code Share</h1>
 	<h2>Comparte tu codigo</h2>
-	<% form_for Proyect.find do |p| %>
+	<% form_for Proyect.new do |p| %>
 		<%= p.textarea :text %>
 		<%= p.submit %>
 	<% end %>
