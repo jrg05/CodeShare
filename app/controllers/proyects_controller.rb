@@ -4,7 +4,7 @@ class ProyectsController < ApplicationController
 		redirect_ to and return
 	end
 	def create 
-		@Proyect= Proyect.create([paramts :id])
+		@Proyect= Proyect.create(params [:id])
 		redirect_to and return
 	end
 end

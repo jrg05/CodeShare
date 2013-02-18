@@ -12,5 +12,9 @@
  *= require_tree .
 */
 body{
-	color: #FAF0E6;
+	color: #4682B4;
+}
+h1,h2{
+	font-family: Arial;
+	text-transform: capitalize;
 }
