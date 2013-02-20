@@ -1,10 +1,13 @@
 class ProyectsController < ApplicationController
-	def index
-		@proyect= Proyect.all
-		redirect_ to and return
-	end
 	def create 
-		@Proyect= Proyect.create(params [:id])
+		@proyects = Proyect.new(params [:proyect])
 		redirect_to and return
 	end
+	def show
+		@proyects = Proyect.find(params[:proyect_id])
+		   respond_to do |format|
+		   		 format.html
+		   		 end
+		   end
+
 end

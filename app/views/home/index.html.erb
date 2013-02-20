@@ -1,7 +1,6 @@
 <h1>Code Share</h1>
 	<h2>Comparte tu codigo</h2>
-	<% form_for Proyect.new do |p| %>
-		<%= p.textarea :text %>
-		<%= p.submit %>
+	<%form_for Works.new do |f| %>
+		<%= f.textarea :text %>
+		<%= f.submit %>
 	<% end %>
- 
