@@ -1,14 +1,9 @@
 class HomeController < ApplicationController
 	def index
-=begin
-		@proyects = Proyect.all
-=end
-		respond_to do |format|
-			format.html
-		end
+		@works = Work.all
 	end
-	def show
-		@proyect = Proyect.find(params[:proyect_id])
 
+	def show
+		@works = Work.find(params[:work_id])
 	end
 end
