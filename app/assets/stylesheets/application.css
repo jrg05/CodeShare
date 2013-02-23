@@ -13,9 +13,12 @@
 */
 .cabecera{
 	background-color: #000066;
+	border-top: double;
+	border-style: outset;
+	border-color: #708090;
 	text-transform: capitalize;
-	float: right;
-	height: 70px;
+	float: left;
+	height: 30%;
 	width: 100%;
 	font-family: Arial;
 	
@@ -29,11 +32,24 @@ h1,h2{
 	font-family: Arial;
 	text-transform: capitalize;
 }
-.footer{
+h3{
 	color: black;
+}
+a{
+	color: #708090;
+	text-decoration: none;
+}
+.cuerpo{
+	text-align: center;
+}
+.footer{
+	margin-top: 5%;
+	border: solid;
+	border-color:  #708090;
+	color: black;
+	font-size: 14px;
 	background-color: #333399;
 	width: 100%;
-	height: 20%;
+	height: 15%;
 	float: right;
-	position: relative;
-}
+	}
