@@ -7,3 +7,4 @@ TODO:
 - Agregar Widget para redes sociales
 - Trabajar con el reductor de urls
 - Modificar el diseño de la aplicacion
+== 

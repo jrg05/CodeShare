@@ -43,7 +43,7 @@ a{
 }
 .footer{
 	margin-top: 5%;
-	border: solid;
+	border:outset;
 	border-color:  #708090;
 	color: black;
 	font-size: 14px;
