@@ -20,12 +20,11 @@
 	height: 30%;
 	width: 100%;
 	font-family: Arial;
-	
 }
 body{
 	color: #DCDCDC;
 	background-color: #B0C4DE;
-	font-family: Arial;
+	font-family: 'Fjalla One', sans-serif;
 }
 h1,h2{
 	font-family: Arial;
@@ -37,9 +36,6 @@ h3{
 a{
 	color: #708090;
 	text-decoration: none;
-}
-.cuerpo{
-	text-align: center;
 }
 .footer{
 	margin-top: 5%;

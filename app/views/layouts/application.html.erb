@@ -2,13 +2,21 @@
 <html>
 <head>
   <title>Proyect</title>
+  <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div class= "cabecera">
+	<h1><a href="/">Code Share</a></h1>
+</div>
 <%= yield %>
+	<div class= "footer">
+		<h4>Sitio elaborado por <a href="http://github.com/jrg05">Jorge Gimenez</a></h4>
+		<p>Facebook: <a href="http://facebook.com/Djorge.Gimenez">DJorge Gimenez</a></p>
+		<p>Twitter: <a href="http://twitter.com/jrg_2033">@jrg_2033</a></p>
+	</div>
 
 </body>
 </html>
