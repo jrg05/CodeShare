@@ -15,11 +15,22 @@
 	background-color: #000066;
 	border-top: double;
 	border-style: outset;
+	border-bottom: none;
 	border-color: #708090;
 	text-transform: capitalize;
 	height: 30%;
 	width: 100%;
 	font-family: Arial;
+}
+.Navegador{
+	font-family: Arial;font-size: 13px;
+	height: 20px;
+	width: 100%;
+	background-color: #3366CC;
+	border-top: none;
+	border-style: solid;
+	border-bottom: none;
+	border-color: #708090;
 }
 body{
 	color: #DCDCDC;
@@ -34,8 +45,11 @@ h3{
 	color: black;
 }
 a{
-	color: #708090;
+	color: #6699FF;
 	text-decoration: none;
+}
+pre{
+	color: #669999;
 }
 .footer{
 	margin-top: 5%;
