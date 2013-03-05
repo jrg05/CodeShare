@@ -12,6 +12,9 @@
  *= require_tree .
 */
 .cabecera{
+	background-image: url(codeshare1.png);
+	background-position: right;
+	background-repeat: no-repeat;
 	background-color: #000066;
 	border-top: double;
 	border-style: outset;
