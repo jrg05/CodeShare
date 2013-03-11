@@ -40,6 +40,7 @@
 	border-radius: 20px;
 	background-clip: 10px;
 }
+
 .footer{
 	border:outset;
 	border-color:  #708090;
@@ -71,5 +72,12 @@ a{
 pre{
 	color: #669999;
 }
-
- 	 
+ input[type= "submit"] {
+ 	border-style: outset;
+ 	border-radius: 5px;
+ 	background-color: #3CB371;
+ 	font-family: Arial;
+ 	font-size: 15px;
+ 	font-variant: small-caps;
+ }
+ 	
