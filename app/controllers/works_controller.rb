@@ -8,6 +8,6 @@ class WorksController < ApplicationController
 	end
 
 	def show
-		@works = Work.find(params[:id])
+		@work = Work.find(params[:id])
 	end
 end

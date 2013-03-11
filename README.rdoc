@@ -8,3 +8,10 @@ TODO:
 - Trabajar con el reductor de urls
 - Modificar el diseño de la aplicacion
 == 
+
+=== Instalación
+
+En Linux
+
+  $ sudo apt-get install libv8-dev build-essential
+  $ sudo bundle install
