@@ -74,6 +74,7 @@ pre{
 }
  input[type= "submit"] {
  	border-style: outset;
+ 	border-color: aquamarine;
  	border-radius: 5px;
  	background-color: #3CB371;
  	font-family: Arial;
