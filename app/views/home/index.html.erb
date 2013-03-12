@@ -3,8 +3,8 @@
 		<%= f.text_area :text%>
 	    <%= submit_tag("Generar un Link") %>
 	<% end %>
-	<em>Listado de Links</em>
 	<div class="lista">
+			<em>Listado de Links</em>
 		<ul>
 			<% Work.all.each do |work| %>
 			<li>
