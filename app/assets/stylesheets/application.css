@@ -40,6 +40,15 @@
 	border-radius: 20px;
 	background-clip: 10px;
 }
+.lista{
+	font-family: Arial;
+	border-style: outset;
+	border-color:  #B0E0E6;
+	font-weight: bold;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-radius: 20px;
+}
 
 .footer{
 	border:outset;
@@ -61,6 +70,7 @@ body{
 h1,h2{
 	font-family: Arial;
 	text-transform: capitalize;
+	color: #3CB371;
 }
 h3{
 	color: black;
@@ -71,6 +81,14 @@ a{
 }
 pre{
 	color: #669999;
+}
+em{
+	margin-left: 20%;
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #3CB371;
 }
  input[type= "submit"] {
  	border-style: outset;

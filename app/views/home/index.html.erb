@@ -3,11 +3,12 @@
 		<%= f.text_area :text%>
 	    <%= submit_tag("Generar un Link") %>
 	<% end %>
+	<em>Listado de Links</em>
 	<div class="lista">
 		<ul>
 			<% Work.all.each do |work| %>
 			<li>
-             <%= work.text%>
+             <%= link_to "#{request.protocol}#{request.host_with_port}#{ short_work_path(work)}", short_work_path(work) %>
           	</li>
 			<% end %>
 		</ul>

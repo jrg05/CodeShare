@@ -3,6 +3,7 @@ Proyect::Application.routes.draw do
   # first created -> highest priority.
   resources :works
   match ':id' => 'works#show', :as => :short_work
+  match 'static' => 'static#action'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
