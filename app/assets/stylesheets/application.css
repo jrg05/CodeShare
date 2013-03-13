@@ -45,9 +45,9 @@
 	border-style: outset;
 	border-color:  #B0E0E6;
 	font-weight: bold;
-	margin-left: 40%;
+	margin-left: 55%;
 	margin-right: 5%;
-	margin-top: -330px;
+	margin-top: -335px;
 	margin-bottom: 250px;
 	border-radius: 20px;
 }
@@ -109,6 +109,7 @@ em{
  	border-color: #CCCCCC;
  	border-style: solid;
  	margin-left: 8px;
+ 	width: 40%;
  }
  .fb-send, fb\:send {
   transform: scale(2.5);
