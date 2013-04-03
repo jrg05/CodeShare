@@ -6,9 +6,9 @@
 	<div class="lista">
 			<em>Listado de Links</em>
 		<ul>
-			<% Work.all.each do |work| %>
+			<% Work.order('created_at DESC').each do |work| %>
 			<li>
-             <%= link_to "#{request.protocol}#{request.host_with_port}#{ short_work_path(work)}", short_work_path(work) %> <%= work["created_at"] %>
+              <%= link_to "#{request.protocol}#{request.host_with_port}#{ short_work_path(work)}", short_work_path(work) %>  <%= time_ago_in_words work["created_at"] %> ago
           	</li>
 			<% end %>
 		</ul>
