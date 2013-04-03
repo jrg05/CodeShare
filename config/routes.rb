@@ -1,4 +1,6 @@
 Proyect::Application.routes.draw do
+  get "static_pages/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
   resources :works
@@ -50,7 +52,7 @@ Proyect::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
 
-  match 'static/:action' => 'static#:action'
+  match 'static/about:action' => 'static#:action'
   root :to => 'Home#index'
 
   # See how all your routes lay out with "rake routes"
